@@ -53,5 +53,5 @@ export default function StarrySky({ input }) {
     animate();
   }, [input]);
 
-  return <canvas ref={canvasRef} style={{ height: "100vh", width: "100%" }} />;
+  return <canvas ref={canvasRef} style={{ height: "50vh", width: "100%" }} />;
 }
